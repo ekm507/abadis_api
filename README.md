@@ -19,3 +19,5 @@ translated = get_translation('book')
 print(translated)
 ```
 </div>
+
+</div>
