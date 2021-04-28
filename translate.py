@@ -1,3 +1,4 @@
+#!/bin/python3
 import abadis_api
 from sys import argv
 
