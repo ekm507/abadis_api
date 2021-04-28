@@ -20,6 +20,15 @@ print(translated)
 ```
 </div>
 
+یا می‌توانید از آن در خط فرمان چنین استفاده کنید:
+
+<div dir="ltr">
+
+```bash
+python3 translate.py book
+```
+</div>
+
 ## نکات حقوقی
 
 ### استفاده از  API سایت آبادیس 
