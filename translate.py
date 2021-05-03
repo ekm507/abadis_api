@@ -1,9 +1,20 @@
 #!/bin/python3
 import abadis_api
 from sys import argv
-
+lang_from = 'en'
+lang_to = 'fa'
 word = str(argv[1])
-translation = abadis_api.get_translation(word)
+if word == '-fa':
+    lang_from = 'fa'
+    word = argv[2]
+elif word == '-en':
+    lang_to = 'en'
+    word = argv[2]
+elif word == '-r':
+    lang_from, lang_to = lang_to, lang_from
+    word = argv[2]
+
+translation = abadis_api.get_translation(word, lang_from=lang_from, lang_to=lang_to)
 
 for line in translation:
     print(f'{line[0]} : {line[1]}')
