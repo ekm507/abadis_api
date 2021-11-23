@@ -1,4 +1,3 @@
-<div dir="rtl">
 
 # کتابخانه پایتون رابط برنامه‌نویسی برای دیکشنری آبادیس
 
@@ -11,23 +10,18 @@
 
 به عنوان مثال می‌توانید از این کتابخانه چنین استفاده کنید:
 
-<div dir="ltr">
-
 ```python
 from abadis_api import get_translation
 translated = get_translation('book')
 print(translated)
 ```
-</div>
 
 یا می‌توانید از آن در خط فرمان چنین استفاده کنید:
 
-<div dir="ltr">
 
 ```bash
 python3 translate.py book
 ```
-</div>
 
 ## طرز کار برنامه
 این یک برنامه [داده‌خراشی](https://fa.wikipedia.org/wiki/تراش‌دادن_داده)
@@ -45,4 +39,3 @@ python3 translate.py book
 ### توسعه و استفاده از این مخزن
 این مخزن، یک پروژه بازمتن است و با یک پروانه آزاد منتشر می‌شود.
 
-</div>
